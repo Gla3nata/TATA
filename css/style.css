@@ -1,0 +1,225 @@
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/roboto-regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/roboto-bold.ttf);
+    font-style: bold;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/roboto-black.ttf);
+    font-style: black;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: robotocondensed-regular;
+    src: url(../fonts/robotocondensed-regular.ttf);
+}
+
+@font-face {
+    font-family: robotocondensed-bold;
+    src: url(../fonts/robotocondensed-bold.ttf);
+}
+
+body {
+    width: 1920px;
+    margin: 0 auto;
+    padding: 8px 20px 0 17px;
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    min-height: 1024px;
+    box-sizing: border-box;
+}
+
+header {}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.today-title {
+    /*   border: 1px solid red;*/
+}
+
+.today {
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000;
+    margin: 0 23px 0 16px;
+}
+
+.number {
+    font-style: black;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 41px;
+    color: #090909;
+}
+
+.btn-exit {
+    width: 9%;
+    height: 55px;
+    background: #3988FF;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 11px;
+}
+
+.exit {
+    font-style: black;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.days {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-day {
+    height: 50px;
+    width: 18%;
+    background: #FFF9C1;
+    border: 6px solid #B1B1B1;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+.day {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+main {
+    background: #3C9A78;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+.total {
+    display: flex;
+    border: 1px solid red;
+}
+
+.total-price {
+/*    width: 18%;*/
+/*    min-height: 76px;*/
+    background: #FFFFFF;
+    border: 3px solid #5A5959;
+    box-sizing: border-box;
+    border-radius: 10px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.price-txt {
+    display: block;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    border: 1px solid black;
+}
+
+.cost {
+    display: block;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #000000;
+    border: 1px solid white;
+}
+
+.btn-pay {
+/*    width: 18%;*/
+/*    min-height: 76px;*/
+    background: #0F8931;
+    border: 3px solid #63E879;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.pay {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 58₽ */
+
+/*
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 41px;
+text-align: right;
+text-transform: uppercase;
+
+color: #005203;
+*/
+
+
+@media screen and (max-width: 1920px) {
+    body {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
