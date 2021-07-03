@@ -39,6 +39,7 @@ body {
     text-transform: uppercase;
     min-height: 1024px;
     box-sizing: border-box;
+    color: #000000;
 }
 
 header {}
@@ -47,17 +48,16 @@ header {}
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    padding: 15px 0 0 0;
+    /*    padding: 15px 0 0 0;*/
 }
 
 .today-title {
-    /*   border: 1px solid red;*/
+    padding: 5px 0px 0px 17px;
 }
 
 .today {
     font-size: 35px;
     line-height: 41px;
-    color: #000000;
     margin: 0 50px 0 18px;
 }
 
@@ -101,7 +101,10 @@ header {}
     border: 6px solid #B1B1B1;
     box-sizing: border-box;
     border-radius: 10px;
+}
 
+.btn-day:hover {
+    border: 7px solid #DE6C6C;
 }
 
 .day {
@@ -110,14 +113,13 @@ header {}
     font-size: 20px;
     line-height: 23px;
     text-align: center;
-    color: #000000;
-    text-transform: uppercase;
 }
 
 main {
     background: #3C9A78;
     width: 100%;
     box-sizing: border-box;
+    margin-top: 15px;
 }
 
 .main-title {
@@ -158,8 +160,6 @@ main {
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
-    color: #000000;
-/*    border: 1px solid black;*/
     padding-left: 36px;
 }
 
@@ -168,7 +168,6 @@ main {
     font-weight: 700;
     font-size: 50px;
     line-height: 59px;
-    color: #000000;
     text-transform: capitalize;
 }
 
@@ -190,7 +189,32 @@ main {
     text-transform: uppercase;
 }
 
+.category {}
 
+
+
+.btn-category {
+    display: block;
+    width: 243px;
+    min-height: 156px;
+    background: #E1E1E1;
+    border-radius: 14px;
+    box-sizing: border-box;
+    margin: 0 0 34px 17px;
+}
+
+.btn-category:hover {
+    background: #FFE9DD;
+    border: 6px solid #FF6060;
+}
+
+.category-name {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+}
 
 
 
