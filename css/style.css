@@ -203,12 +203,12 @@ main {
 
 .btn-category {
     display: block;
-/*    width: 12%;*/
+  width: 86%;
     min-height: 156px;
     background: #E1E1E1;
     border-radius: 14px;
     box-sizing: border-box;
-    margin: 0 0 34px 17px;
+    margin: 0 19px 34px 17px;
 }
 
 .btn-category:hover {
@@ -227,7 +227,7 @@ main {
 }
 
 .menu {
-    margin: 0 0 0 24px;
+/*    margin: 0 0 0 24px;*/
 }
 
 .menu-list {
