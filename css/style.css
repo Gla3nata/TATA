@@ -196,14 +196,13 @@ main {
 }
 
 .category {
-    width: 12%;
 }
 
 
 
 .btn-category {
     display: block;
-  width: 86%;
+  width: 243px; 
     min-height: 156px;
     background: #E1E1E1;
     border-radius: 14px;
@@ -236,7 +235,7 @@ main {
 }
 
 .menu-list-full {
-    width: 100%;
+   width: 691px;
     /*    height: 92px;*/
     background: #FFEADE;
     border: 6px solid #FFCFBB;
@@ -260,7 +259,7 @@ main {
     line-height: 29px;
     margin: 0;
     border: 1px solid;
-    width: 100%
+/*    width: 100%*/
 }
 
 .weight {
@@ -272,7 +271,7 @@ main {
 }
 
 .price-wrp {
-    width: 18%;
+/*    width: 15%;*/
     min-height: 80px;
     background: #FFFFFF;
     border-radius: 5px;
@@ -295,7 +294,7 @@ main {
 }
 
 .remove {
-    width: 30%;
+ width: 84px;
 /*    min-height: 92px;*/
     background: #FF9292;
     border: 6px solid #FFCFBB;
@@ -307,7 +306,7 @@ main {
 }
 
 .quantity {
-    width: 30%;
+width: 84px;
     /*    height: 92px;*/
     background: #FFFFFF;
     border: 6px solid #FFCFBB;
@@ -318,7 +317,7 @@ main {
 }
 
 .add {
-    width: 30%;
+width: 84px;
 /*    min-height: 92px;*/
     background: #7EDE50;
     border: 6px solid #FFCFBB;
@@ -334,7 +333,7 @@ main {
 }
 
 .half-order-title {
-    width: 27%;
+  width:145px;
     min-height: 92px;
     background: #FFEADE;
     border: 6px solid #FFCFBB;
