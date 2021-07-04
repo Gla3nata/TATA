@@ -222,7 +222,6 @@ main {
     line-height: 29px;
     text-align: center;
     text-transform: uppercase;
-    word-wrap: normal;
 }
 
 .menu {
@@ -258,8 +257,6 @@ main {
     font-size: 25px;
     line-height: 29px;
     margin: 0;
-    border: 1px solid;
-/*    width: 100%*/
 }
 
 .weight {
@@ -267,7 +264,6 @@ main {
     font-weight: bold;
     font-size: 23px;
     line-height: 27px;
-    border: 1px solid white;
 }
 
 .price-wrp {
