@@ -257,7 +257,7 @@ main {
 }
 
 .price-wrp {
-   width: 114px;
+    width: 114px;
     min-height: 80px;
     background: #FFFFFF;
     border-radius: 5px;
@@ -350,6 +350,7 @@ main {
     display: flex;
     width: 691px;
 }
+
 .order-category-name {
     width: 513px;
     min-height: 92px;
@@ -375,7 +376,10 @@ main {
     justify-content: center;
 }
 
-.discount {}
+.discounts {
+    text-align: end;
+
+}
 
 .discount {
     width: 437px;
@@ -384,7 +388,14 @@ main {
     border: 6px solid #FFF9C1;
     box-sizing: border-box;
     border-radius: 10px;
+    margin: 20px;
 }
+
+.discount:hover {
+    border: 7px solid #DE6C6C;
+    border-radius: 10px;
+}
+
 
 .discount-title {
     font-weight: bold;
@@ -392,7 +403,12 @@ main {
     line-height: 30px;
 }
 
-.footer {}
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
 
 .down {
     width: 513px;
@@ -401,7 +417,7 @@ main {
     border: 3px solid #EEEEEE;
     box-sizing: border-box;
     border-radius: 10px;
-
+    margin: 0 0 12px 33px;
 }
 
 .receipt {
@@ -411,6 +427,7 @@ main {
     border: 3px solid #63E879;
     box-sizing: border-box;
     border-radius: 10px;
+    margin: 0 20px 12px 0;
 }
 
 
