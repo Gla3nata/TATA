@@ -186,11 +186,6 @@ main {
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
-    align-self: center;
-}
-
-.back {
-    background: #CA6D00;
 }
 
 .pay {
@@ -201,7 +196,6 @@ main {
     color: #FFFFFF;
     text-transform: uppercase;
 }
-
 
 .content {
     display: flex;
@@ -245,8 +239,8 @@ main {
 }
 
 .menu-list-full {
-    /*   width: 100%;*/
-    width: 691px;
+    width: 100%;
+    /*  width: 691px;*/
     min-height: 92px;
     background: #FFEADE;
     border: 6px solid #FFCFBB;
@@ -368,16 +362,17 @@ main {
 }
 
 .order-list {
-    padding: 0 20px 0 33px;
+    width: 100%;
 }
 
 .order-item {
     display: flex;
+    margin-bottom: 13px;
 }
 
 .order-category-name {
-    width: 35%;
-    background: #EEEEEE;
+    width: 25%;
+        background: #EEEEEE;
     border: 6px solid #EEEEEE;
     box-sizing: border-box;
     border-radius: 5px 0px 0px 5px;
@@ -386,13 +381,80 @@ main {
     /*    padding-left: 22px;*/
 }
 
+.order-menu-title {
+    display: flex;
+    justify-content:space-between;
+    width: 32%;
+    background: #FFEADE;
+    border: 6px solid #FFCFBB;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+
+}
+.order-menu-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/*
+.order {
+    width: 13%;
+}
+.order .remove {
+     width: 84px;
+}
+.order .quantity {
+     width: 84px;
+}
+.order .add {
+    width: 84px;
+}
+*/
+.half-order {
+}
+.half-order .half-order-title {
+/*    width: 8%;*/
+}
+.half-order .half-order-wrp {
+}
+.half-order .remove {
+}
+.half-order .quantity {
+}
+.half-order .add {
+}
+
+
+.invisible {
+    color: transparent;
+    background: transparent;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .discounts {
     text-align: end;
 
 }
 
 .discount {
-    width: 25%;
+    width: 437px;
     min-height: 74px;
     background: #FFF9C1;
     border: 6px solid #FFF9C1;
@@ -441,6 +503,7 @@ main {
 }
 
 
+/*
 @media screen and (max-width: 1920px) {
     body {
         width: 100%;
@@ -449,14 +512,8 @@ main {
 }
 
 @media (max-width: 1200px) {
-    body {
-        width: 80%;
+    .picture {
+        margin: 0;
+        background-size: 36%, 54%, 42%;
     }
-
-    .total-price {
-        width: 20%;
-    }
-
-    .title {
-        font-size: 30px;
-    }
+*/
