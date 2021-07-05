@@ -203,20 +203,21 @@ main {
     width: 100%
 }
 
+.category{
+    width: 13%;
+    margin: 0 19px 0 17px;
+}
+
 .btn-category {
     display: block;
-    width: 243px;
+    width: 100%;
     min-height: 156px;
     background: #E1E1E1;
     border-radius: 14px;
     box-sizing: border-box;
-    margin: 0 19px 34px 17px;
+    margin-bottom: 34px;
 }
 
-.btn-category:hover {
-    background: #FFE9DD;
-    border: 6px solid #FF6060;
-}
 
 .category-name {
     font-style: bold;
@@ -226,14 +227,20 @@ main {
     text-transform: uppercase;
 }
 
+.menu{
+    width: 90%;
+    box-sizing: border-box;
+}
+
 .menu-list {
     display: flex;
     margin-bottom: 13px;
 }
 
 .menu-list-full {
-    width: 691px;
-    /*    height: 92px;*/
+    width: 100%;
+/*    width: 691px;*/
+   min-height: 92px;
     background: #FFEADE;
     border: 6px solid #FFCFBB;
     box-sizing: border-box;
@@ -241,6 +248,10 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.menu-name{
+/*    min-height: 92px;*/
 }
 
 .menu-title {
@@ -259,7 +270,8 @@ main {
 }
 
 .price-wrp {
-    width: 114px;
+    width: 15%;
+/*    width: 114px;*/
     min-height: 80px;
     background: #FFFFFF;
     border-radius: 5px;
@@ -284,8 +296,9 @@ main {
 }
 
 .remove {
-    width: 84px;
-    /*    min-height: 92px;*/
+    width: 25%;
+/*    width: 84px;*/
+/*    min-height: 92px;*/
     background: #FF9292;
     border: 6px solid #FFCFBB;
     box-sizing: border-box;
@@ -296,8 +309,9 @@ main {
 }
 
 .quantity {
-    width: 84px;
-    /*    height: 92px;*/
+     width: 25%;
+/*    width: 84px;*/
+/*    min-height: 92px;*/
     background: #FFFFFF;
     border: 6px solid #FFCFBB;
     text-align: center;
@@ -307,8 +321,9 @@ main {
 }
 
 .add {
-    width: 84px;
-    /*    min-height: 92px;*/
+    width: 25%;
+/*    width: 84px;*/
+/*    min-height: 92px;*/
     background: #7EDE50;
     border: 6px solid #FFCFBB;
     box-sizing: border-box;
@@ -323,7 +338,8 @@ main {
 }
 
 .half-order-title {
-    width: 145px;
+    width: 37%;
+/*    width: 145px;*/
     min-height: 92px;
     background: #FFEADE;
     border: 6px solid #FFCFBB;
@@ -348,13 +364,10 @@ main {
     margin: 0 0 13px 30px;
 }
 
-.order-menu-title {
-    display: flex;
-    width: 691px;
-}
+
 
 .order-category-name {
-    width: 513px;
+    width: 40%;
     min-height: 92px;
     background: #EEEEEE;
     border: 6px solid #EEEEEE;
@@ -365,8 +378,13 @@ main {
     padding-left: 22px;
 }
 
+.order-menu-title {
+    display: flex;
+    width: 40%;
+}
+
 .order-menu-name {
-    width: 691px;
+    width: 70%;
     min-height: 92px;
     background: #FFEADE;
     border: 6px solid #FFCFBB;
@@ -433,13 +451,9 @@ main {
 }
 
 
-
-
-/*
 @media screen and (max-width: 1920px) {
     body {
         width: 100%;
         box-sizing: border-box;
     }
 }
-*/
